@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 2rem;
+  background-color: rgb(67, 77, 104);
+  color: whitesmoke;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  font-size: 2rem;
+}
+button {
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+p {
+  color: rgb(179, 204, 67);
+}
+.current {
+  color: rgb(179, 204, 67);
+  display: inline-flex;
+}
+
+.one {
+  padding: 20px;
+  color: yellowgreen;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: 1px solid red;
+}
+
+.two {
+  padding: 20px;
+  color: yellowgreen;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: 1px solid red;
+}
+.three {
+  padding: 20px;
+  color: yellowgreen;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: 1px solid red;
+}
+li {
+  display: inline;
+  margin-right: 10px;
+}
+
+a:link {
+  color: greenyellow;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a.active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a.hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
